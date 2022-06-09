@@ -21,7 +21,7 @@ Repeat 3 and 4 until we get the solved puzzle.
 Calculate the time taken to solve the sudoku.
 
 # <br><br><br>Program:
-## Developed By : DINESH.S
+## Developed By : s . dinesh
 ## Register Number : 212220230011
 
 ```
@@ -128,7 +128,7 @@ def search(values):
             
     return values
     
-    p='...4.723.2.....5..83.5.....4.....3.2....2....1.8.....9.....9.21..5.....4.927.1...'
+    p='..8.42...2..3.9..879..5.3...2.......43.....81.......5...4.6..259..8.4..7...57.4..'
 start_time = time.time()
 display(grid_values(p))
 p1=grid_values_improved(p)
@@ -148,7 +148,7 @@ print("\n\n{0} seconds".format(time_taken))
 
 ## Output:
 
-![d1](https://user-images.githubusercontent.com/75235032/172761544-4dffb94a-7ba2-42a9-8541-a86c5c0f3cce.jpg)
+![exp6-ai](https://user-images.githubusercontent.com/75235159/172801543-d0b95459-05ba-4be8-9307-bdb3775b2479.png)
 
 ## Result:
 Thus, a program to solve sudoku puzzle using constraint propagation is implemented successfully.
